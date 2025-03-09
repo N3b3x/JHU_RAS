@@ -1,0 +1,42 @@
+running egg_info
+creating ../build/assignment3/assignment3.egg-info
+writing ../build/assignment3/assignment3.egg-info/PKG-INFO
+writing dependency_links to ../build/assignment3/assignment3.egg-info/dependency_links.txt
+writing entry points to ../build/assignment3/assignment3.egg-info/entry_points.txt
+writing requirements to ../build/assignment3/assignment3.egg-info/requires.txt
+writing top-level names to ../build/assignment3/assignment3.egg-info/top_level.txt
+writing manifest file '../build/assignment3/assignment3.egg-info/SOURCES.txt'
+reading manifest file '../build/assignment3/assignment3.egg-info/SOURCES.txt'
+writing manifest file '../build/assignment3/assignment3.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_3/src/build/assignment3/build
+creating /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_3/src/build/assignment3/build/lib
+creating /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_3/src/build/assignment3/build/lib/assignment3
+copying assignment3/assignment3.py -> /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_3/src/build/assignment3/build/lib/assignment3
+copying assignment3/joint_driver.py -> /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_3/src/build/assignment3/build/lib/assignment3
+copying assignment3/__init__.py -> /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_3/src/build/assignment3/build/lib/assignment3
+running install
+running install_lib
+creating /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_3/src/install/assignment3/lib/python3.10/site-packages/assignment3
+copying /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_3/src/build/assignment3/build/lib/assignment3/assignment3.py -> /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_3/src/install/assignment3/lib/python3.10/site-packages/assignment3
+copying /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_3/src/build/assignment3/build/lib/assignment3/joint_driver.py -> /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_3/src/install/assignment3/lib/python3.10/site-packages/assignment3
+copying /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_3/src/build/assignment3/build/lib/assignment3/__init__.py -> /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_3/src/install/assignment3/lib/python3.10/site-packages/assignment3
+byte-compiling /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_3/src/install/assignment3/lib/python3.10/site-packages/assignment3/assignment3.py to assignment3.cpython-310.pyc
+byte-compiling /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_3/src/install/assignment3/lib/python3.10/site-packages/assignment3/joint_driver.py to joint_driver.cpython-310.pyc
+byte-compiling /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_3/src/install/assignment3/lib/python3.10/site-packages/assignment3/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_3/src/install/assignment3/share/ament_index
+creating /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_3/src/install/assignment3/share/ament_index/resource_index
+creating /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_3/src/install/assignment3/share/ament_index/resource_index/packages
+copying resource/assignment3 -> /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_3/src/install/assignment3/share/ament_index/resource_index/packages
+copying package.xml -> /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_3/src/install/assignment3/share/assignment3
+copying launch/assignment3.launch.py -> /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_3/src/install/assignment3/share/assignment3
+creating /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_3/src/install/assignment3/share/assignment3/launch
+copying launch/single_rrbot.urdf -> /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_3/src/install/assignment3/share/assignment3/launch
+copying launch/dummy_model.rviz -> /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_3/src/install/assignment3/share/assignment3/launch
+running install_egg_info
+Copying ../build/assignment3/assignment3.egg-info to /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_3/src/install/assignment3/lib/python3.10/site-packages/assignment3-0.0.0-py3.10.egg-info
+running install_scripts
+Installing joint_driver script to /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_3/src/install/assignment3/lib/assignment3
+writing list of installed files to '/media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_3/src/build/assignment3/install.log'

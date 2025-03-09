@@ -1,0 +1,50 @@
+[0.498s] Invoking command in '/media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/assignment2': PYTHONPATH=/media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/build/assignment2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/install/assignment2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/assignment2 build --build-base /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/build/assignment2/build install --record /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/build/assignment2/install.log --install-scripts $base/lib/assignment2 --single-version-externally-managed install_data
+[0.675s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.675s]   warnings.warn(
+[0.681s] running egg_info
+[0.681s] creating ../build/assignment2/assignment2.egg-info
+[0.682s] writing ../build/assignment2/assignment2.egg-info/PKG-INFO
+[0.682s] writing dependency_links to ../build/assignment2/assignment2.egg-info/dependency_links.txt
+[0.682s] writing entry points to ../build/assignment2/assignment2.egg-info/entry_points.txt
+[0.682s] writing requirements to ../build/assignment2/assignment2.egg-info/requires.txt
+[0.682s] writing top-level names to ../build/assignment2/assignment2.egg-info/top_level.txt
+[0.693s] writing manifest file '../build/assignment2/assignment2.egg-info/SOURCES.txt'
+[0.694s] reading manifest file '../build/assignment2/assignment2.egg-info/SOURCES.txt'
+[0.694s] writing manifest file '../build/assignment2/assignment2.egg-info/SOURCES.txt'
+[0.694s] running build
+[0.694s] running build_py
+[0.695s] creating /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/build/assignment2/build
+[0.695s] creating /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/build/assignment2/build/lib
+[0.695s] creating /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/build/assignment2/build/lib/assignment2
+[0.695s] copying assignment2/assignment2.py -> /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/build/assignment2/build/lib/assignment2
+[0.695s] copying assignment2/coordinates.py -> /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/build/assignment2/build/lib/assignment2
+[0.695s] copying assignment2/dummy_object_detector.py -> /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/build/assignment2/build/lib/assignment2
+[0.695s] copying assignment2/__init__.py -> /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/build/assignment2/build/lib/assignment2
+[0.695s] running install
+[0.695s] running install_lib
+[0.696s] creating /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/install/assignment2/lib/python3.10/site-packages/assignment2
+[0.696s] copying /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/build/assignment2/build/lib/assignment2/assignment2.py -> /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/install/assignment2/lib/python3.10/site-packages/assignment2
+[0.696s] copying /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/build/assignment2/build/lib/assignment2/coordinates.py -> /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/install/assignment2/lib/python3.10/site-packages/assignment2
+[0.696s] copying /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/build/assignment2/build/lib/assignment2/dummy_object_detector.py -> /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/install/assignment2/lib/python3.10/site-packages/assignment2
+[0.696s] copying /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/build/assignment2/build/lib/assignment2/__init__.py -> /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/install/assignment2/lib/python3.10/site-packages/assignment2
+[0.697s] byte-compiling /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/install/assignment2/lib/python3.10/site-packages/assignment2/assignment2.py to assignment2.cpython-310.pyc
+[0.697s] byte-compiling /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/install/assignment2/lib/python3.10/site-packages/assignment2/coordinates.py to coordinates.cpython-310.pyc
+[0.698s] byte-compiling /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/install/assignment2/lib/python3.10/site-packages/assignment2/dummy_object_detector.py to dummy_object_detector.cpython-310.pyc
+[0.698s] byte-compiling /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/install/assignment2/lib/python3.10/site-packages/assignment2/__init__.py to __init__.cpython-310.pyc
+[0.698s] running install_data
+[0.698s] creating /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/install/assignment2/share/ament_index
+[0.698s] creating /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/install/assignment2/share/ament_index/resource_index
+[0.698s] creating /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/install/assignment2/share/ament_index/resource_index/packages
+[0.699s] copying resource/assignment2 -> /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/install/assignment2/share/ament_index/resource_index/packages
+[0.699s] copying package.xml -> /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/install/assignment2/share/assignment2
+[0.699s] copying launch/assignment2.launch.py -> /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/install/assignment2/share/assignment2
+[0.699s] copying launch/test.launch.py -> /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/install/assignment2/share/assignment2
+[0.699s] creating /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/install/assignment2/share/assignment2/launch
+[0.699s] copying launch/single_rrbot.urdf -> /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/install/assignment2/share/assignment2/launch
+[0.699s] running install_egg_info
+[0.700s] Copying ../build/assignment2/assignment2.egg-info to /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/install/assignment2/lib/python3.10/site-packages/assignment2-0.0.0-py3.10.egg-info
+[0.701s] running install_scripts
+[0.716s] Installing coordinates script to /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/install/assignment2/lib/assignment2
+[0.716s] Installing dummy_object_detector script to /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/install/assignment2/lib/assignment2
+[0.716s] writing list of installed files to '/media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/build/assignment2/install.log'
+[0.731s] Invoked command in '/media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/assignment2' returned '0': PYTHONPATH=/media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/build/assignment2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/install/assignment2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/assignment2 build --build-base /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/build/assignment2/build install --record /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_2/src/build/assignment2/install.log --install-scripts $base/lib/assignment2 --single-version-externally-managed install_data

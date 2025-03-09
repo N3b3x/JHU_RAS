@@ -1,0 +1,3 @@
+[console_scripts]
+joint_driver = assignment3.joint_driver:main
+

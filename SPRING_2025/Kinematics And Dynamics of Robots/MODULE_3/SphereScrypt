@@ -1,0 +1,39 @@
+function sysCall_init()
+    sim = require('sim')
+    sphereHandle = sim.getObject('..')
+
+    -- 1) Get initial position of the sphere in world coordinates
+    local initPos = sim.getObjectPosition(sphereHandle, -1)
+    
+    -- 2) Let's define endpoints relative to the initial position:
+    local offset = 0.5
+    endpoints = {
+        {initPos[1] - offset, initPos[2], initPos[3]},  -- left endpoint
+        {initPos[1] + offset, initPos[2], initPos[3]},  -- right endpoint
+    }
+end
+
+function sysCall_thread()
+    -- 3) Ruckig motion profile
+    local maxVel   = {0.5, 0.5, 0.5, 0.1}
+    local maxAccel = {0.2, 0.2, 0.2, 0.1}
+    local maxJerk  = {0.1, 0.1, 0.1, 0.1}
+
+    local i = 1
+    while not sim.getSimulationStopping() do
+        local targetPos = endpoints[i]
+        local params = {
+            object     = sphereHandle,
+            targetPose = {targetPos[1], targetPos[2], targetPos[3], 0,0,0,1},
+            maxVel     = maxVel,
+            maxAccel   = maxAccel,
+            maxJerk    = maxJerk,
+            flags      = 0,
+        }
+
+        sim.moveToPose(params)
+        sim.wait(1) -- pause at endpoints
+        i = (i == 1) and 2 or 1
+    end
+end
+

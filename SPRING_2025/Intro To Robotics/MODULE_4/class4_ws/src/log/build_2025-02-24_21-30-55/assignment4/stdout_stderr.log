@@ -1,0 +1,23 @@
+running egg_info
+writing ../build/assignment4/assignment4.egg-info/PKG-INFO
+writing dependency_links to ../build/assignment4/assignment4.egg-info/dependency_links.txt
+writing entry points to ../build/assignment4/assignment4.egg-info/entry_points.txt
+writing requirements to ../build/assignment4/assignment4.egg-info/requires.txt
+writing top-level names to ../build/assignment4/assignment4.egg-info/top_level.txt
+reading manifest file '../build/assignment4/assignment4.egg-info/SOURCES.txt'
+writing manifest file '../build/assignment4/assignment4.egg-info/SOURCES.txt'
+running build
+running build_py
+copying assignment4/mecanum_sim.py -> /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_4/class4_ws/src/build/assignment4/build/lib/assignment4
+running install
+running install_lib
+copying /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_4/class4_ws/src/build/assignment4/build/lib/assignment4/mecanum_sim.py -> /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_4/class4_ws/src/install/assignment4/lib/python3.10/site-packages/assignment4
+byte-compiling /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_4/class4_ws/src/install/assignment4/lib/python3.10/site-packages/assignment4/mecanum_sim.py to mecanum_sim.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_4/class4_ws/src/install/assignment4/lib/python3.10/site-packages/assignment4-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/assignment4/assignment4.egg-info to /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_4/class4_ws/src/install/assignment4/lib/python3.10/site-packages/assignment4-0.0.0-py3.10.egg-info
+running install_scripts
+Installing mecanum_sim script to /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_4/class4_ws/src/install/assignment4/lib/assignment4
+Installing teleop_twist_keyboard script to /media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_4/class4_ws/src/install/assignment4/lib/assignment4
+writing list of installed files to '/media/n3b3x/Data Interchange Drive/SCHOOL/JHU/SPRING_2025/Intro To Robotics/MODULE_4/class4_ws/src/build/assignment4/install.log'

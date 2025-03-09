@@ -1,0 +1,4 @@
+[console_scripts]
+mecanum_sim = assignment4.mecanum_sim:main
+teleop_twist_keyboard = assignment4.teleop_twist_keyboard:main
+

@@ -1,0 +1,45 @@
+sim = require('sim')
+
+function moveToConfig(handles, maxVel, maxAccel, maxJerk, targetConf)
+    local params = {
+        joints = handles,
+        targetPos = targetConf,
+        maxVel = maxVel,
+        maxAccel = maxAccel,
+        maxJerk = maxJerk,
+    }
+    sim.moveToConfig(params)
+end
+
+function sysCall_thread()
+    local jointHandles = {}
+    for i = 1, 6 do
+        jointHandles[i] = sim.getObject('../joint', {index = i - 1})
+    end
+
+    local vel = 180
+    local accel = 40
+    local jerk = 80
+    local maxVel = {vel * math.pi / 180, vel * math.pi / 180, vel * math.pi / 180, vel * math.pi / 180, vel * math.pi / 180, vel * math.pi / 180}
+    local maxAccel = {accel * math.pi / 180, accel * math.pi / 180, accel * math.pi / 180, accel * math.pi / 180, accel * math.pi / 180, accel * math.pi / 180}
+    local maxJerk = {jerk * math.pi / 180, jerk * math.pi / 180, jerk * math.pi / 180, jerk * math.pi / 180, jerk * math.pi / 180, jerk * math.pi / 180}
+
+    local poses = {
+        -- Pose 1
+        {90 * math.pi / 180, 90 * math.pi / 180, -90 * math.pi / 180, 90 * math.pi / 180, 90 * math.pi / 180, 90 * math.pi / 180},
+        -- Pose 2
+        {-90 * math.pi / 180, 45 * math.pi / 180, 90 * math.pi / 180, 135 * math.pi / 180, 90 * math.pi / 180, 90 * math.pi / 180},
+        -- Pose 3
+        {30 * math.pi / 180, -90 * math.pi / 180, 45 * math.pi / 180, 120 * math.pi / 180, -60 * math.pi / 180, 0},
+        -- Pose 4 
+        {0, 0, 0, 0, 0, 0}
+    }
+
+    while not sim.getSimulationStopping() do
+        for i, pose in ipairs(poses) do
+            moveToConfig(jointHandles, maxVel, maxAccel, maxJerk, pose)
+            sim.wait(2) -- Wait before switching to next pose
+        end
+    end
+end
+
