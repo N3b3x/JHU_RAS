@@ -1,3 +1,4 @@
 [console_scripts]
-
+diffdrive_pid = en613_control.diffdrive_pid:main
+diffdrive_sim = en613_control.diffdrive_sim:main
 

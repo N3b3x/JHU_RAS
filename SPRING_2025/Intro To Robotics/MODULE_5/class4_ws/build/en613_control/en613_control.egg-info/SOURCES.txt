@@ -9,6 +9,11 @@ setup.py
 ../../build/en613_control/en613_control.egg-info/top_level.txt
 ../../build/en613_control/en613_control.egg-info/zip-safe
 en613_control/__init__.py
+en613_control/diffdrive_pid.py
+en613_control/diffdrive_sim.py
+launch/basic_sim.launch.py
+launch/dummy_model.rviz
+launch/goal_sim.launch.py
 launch/urdf_test.launch.py
 resource/en613_control
 test/test_copyright.py

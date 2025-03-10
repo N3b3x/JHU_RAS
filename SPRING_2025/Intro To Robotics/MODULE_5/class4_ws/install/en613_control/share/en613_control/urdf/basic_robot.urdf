@@ -1,15 +1,6 @@
 <?xml version="1.0"?>
 <robot name="basic_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-  <!--
-      Dimensions:
-        - Chassis (box)  : 0.825 x 0.825 x 0.075 (m)
-        - Wheels (cyl)   : radius=0.4, length=0.05 (m)
-                          left_wheel = blue, right_wheel = red
-        - Lidar dome     : sphere radius=0.03125 (m) => 3.125 cm
-                           half protruding above chassis
-                           center offset 0.3 m in front (x=0.3)
-  -->
   <!-- Chassis link -->
   <link name="chassis">
     <visual>
@@ -27,13 +18,19 @@
         <box size="0.825 0.825 0.075" />
       </geometry>
     </collision>
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="10.0"/>
+      <inertia ixx="0.1" ixy="0.0" ixz="0.0"
+               iyy="0.1" iyz="0.0"
+               izz="0.1"/>
+    </inertial>
   </link>
 
   <!-- Left Wheel link -->
   <link name="left_wheel">
     <visual>
-      <!-- Centered on x=0, out to the left in y=+0.4125, offset by length/2 in z -->
-      <origin xyz="0 0.4375 0" rpy="0 1.5708 1.5708" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
         <cylinder radius="0.4" length="0.05"/>
       </geometry>
@@ -42,13 +39,13 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="0 0.4375 0.025" rpy="0 1.5708 1.5708" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
         <cylinder radius="0.4" length="0.05"/>
       </geometry>
     </collision>
     <inertial>
-      <origin xyz="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <mass value="0.5"/>
       <inertia ixx="0.1" ixy="0.0" ixz="0.0"
                iyy="0.1" iyz="0.0"
@@ -59,7 +56,7 @@
   <!-- Right Wheel link -->
   <link name="right_wheel">
     <visual>
-      <origin xyz="0 -0.4375 0" rpy="0 1.5708 1.5708" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
         <cylinder radius="0.4" length="0.05"/>
       </geometry>
@@ -68,13 +65,13 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="0 -0.4375 0" rpy="0 1.5708 1.5708" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
         <cylinder radius="0.4" length="0.05"/>
       </geometry>
     </collision>
     <inertial>
-      <origin xyz="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <mass value="0.5"/>
       <inertia ixx="0.1" ixy="0.0" ixz="0.0"
                iyy="0.1" iyz="0.0"
@@ -85,13 +82,7 @@
   <!-- Lidar Dome link -->
   <link name="lidar_dome">
     <visual>
-      <!--
-        The top half of the sphere (radius=0.03125) sticks out above chassis.
-        Chassis height = 0.075, so we place the center a bit below top
-        (or so that half is above).
-        Also offset in front by 0.3 m (x=0.3).
-      -->
-      <origin xyz="0.3 0 0.0375" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
         <sphere radius="0.03125"/>
       </geometry>
@@ -100,13 +91,13 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="0.3 0 0.0375" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
         <sphere radius="0.03125"/>
       </geometry>
     </collision>
     <inertial>
-      <origin xyz="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <mass value="0.1"/>
       <inertia ixx="0.01" ixy="0.0" ixz="0.0"
                iyy="0.01" iyz="0.0"
@@ -114,30 +105,28 @@
     </inertial>
   </link>
 
-  <!-- JOINTS -->
+  <!-- Joints -->
   <!-- Joint connecting chassis to left wheel -->
   <joint name="chassis_to_left_wheel" type="continuous">
     <parent link="chassis"/>
     <child link="left_wheel"/>
-    <origin xyz="0 0 0"/>
-    <!-- Wheel spins around y-axis for differential drive -->
-    <axis xyz="0 1 0"/>
+    <origin xyz="0 0.4375 0" rpy="-1.5708 0 0"/>
+    <axis xyz="0 0 1"/>
   </joint>
 
   <!-- Joint connecting chassis to right wheel -->
   <joint name="chassis_to_right_wheel" type="continuous">
     <parent link="chassis"/>
     <child link="right_wheel"/>
-    <origin xyz="0 0 0"/>
-    <!-- Wheel spins around y-axis for differential drive -->
-    <axis xyz="0 1 0"/>
+    <origin xyz="0 -0.4375 0" rpy="1.5708 0 0"/>
+    <axis xyz="0 0 1"/>
   </joint>
 
   <!-- Joint connecting chassis to lidar dome -->
   <joint name="chassis_to_lidar_dome" type="fixed">
     <parent link="chassis"/>
     <child link="lidar_dome"/>
-    <origin xyz="0 0 0"/>
+    <origin xyz="0.3 0 0.0375" rpy="0 0 0"/>
   </joint>
 
 </robot>

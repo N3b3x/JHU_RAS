@@ -1,0 +1,27 @@
+[0.468s] Invoking command in '/media/n3b3x/Data Interchange Drive/SCHOOL/JHU_RAS/SPRING_2025/Intro To Robotics/MODULE_5/class4_ws/src/en613_control': PYTHONPATH=/media/n3b3x/Data Interchange Drive/SCHOOL/JHU_RAS/SPRING_2025/Intro To Robotics/MODULE_5/class4_ws/build/en613_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/n3b3x/Data Interchange Drive/SCHOOL/JHU_RAS/SPRING_2025/Intro To Robotics/MODULE_5/class4_ws/install/en613_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/en613_control build --build-base /media/n3b3x/Data Interchange Drive/SCHOOL/JHU_RAS/SPRING_2025/Intro To Robotics/MODULE_5/class4_ws/build/en613_control/build install --record /media/n3b3x/Data Interchange Drive/SCHOOL/JHU_RAS/SPRING_2025/Intro To Robotics/MODULE_5/class4_ws/build/en613_control/install.log --single-version-externally-managed install_data
+[0.645s] running egg_info
+[0.645s] writing ../../build/en613_control/en613_control.egg-info/PKG-INFO
+[0.646s] writing dependency_links to ../../build/en613_control/en613_control.egg-info/dependency_links.txt
+[0.646s] writing entry points to ../../build/en613_control/en613_control.egg-info/entry_points.txt
+[0.646s] writing requirements to ../../build/en613_control/en613_control.egg-info/requires.txt
+[0.646s] writing top-level names to ../../build/en613_control/en613_control.egg-info/top_level.txt
+[0.648s] reading manifest file '../../build/en613_control/en613_control.egg-info/SOURCES.txt'
+[0.648s] writing manifest file '../../build/en613_control/en613_control.egg-info/SOURCES.txt'
+[0.648s] running build
+[0.649s] running build_py
+[0.649s] copying en613_control/diffdrive_sim.py -> /media/n3b3x/Data Interchange Drive/SCHOOL/JHU_RAS/SPRING_2025/Intro To Robotics/MODULE_5/class4_ws/build/en613_control/build/lib/en613_control
+[0.649s] running install
+[0.649s] running install_lib
+[0.649s] copying /media/n3b3x/Data Interchange Drive/SCHOOL/JHU_RAS/SPRING_2025/Intro To Robotics/MODULE_5/class4_ws/build/en613_control/build/lib/en613_control/diffdrive_sim.py -> /media/n3b3x/Data Interchange Drive/SCHOOL/JHU_RAS/SPRING_2025/Intro To Robotics/MODULE_5/class4_ws/install/en613_control/lib/python3.10/site-packages/en613_control
+[0.650s] byte-compiling /media/n3b3x/Data Interchange Drive/SCHOOL/JHU_RAS/SPRING_2025/Intro To Robotics/MODULE_5/class4_ws/install/en613_control/lib/python3.10/site-packages/en613_control/diffdrive_sim.py to diffdrive_sim.cpython-310.pyc
+[0.650s] running install_data
+[0.651s] copying launch/basic_sim.launch.py -> /media/n3b3x/Data Interchange Drive/SCHOOL/JHU_RAS/SPRING_2025/Intro To Robotics/MODULE_5/class4_ws/install/en613_control/share/en613_control/launch
+[0.651s] copying launch/urdf_test.launch.py -> /media/n3b3x/Data Interchange Drive/SCHOOL/JHU_RAS/SPRING_2025/Intro To Robotics/MODULE_5/class4_ws/install/en613_control/share/en613_control/launch
+[0.651s] copying urdf/basic_robot.urdf -> /media/n3b3x/Data Interchange Drive/SCHOOL/JHU_RAS/SPRING_2025/Intro To Robotics/MODULE_5/class4_ws/install/en613_control/share/en613_control/urdf
+[0.651s] running install_egg_info
+[0.652s] removing '/media/n3b3x/Data Interchange Drive/SCHOOL/JHU_RAS/SPRING_2025/Intro To Robotics/MODULE_5/class4_ws/install/en613_control/lib/python3.10/site-packages/en613_control-0.0.0-py3.10.egg-info' (and everything under it)
+[0.652s] Copying ../../build/en613_control/en613_control.egg-info to /media/n3b3x/Data Interchange Drive/SCHOOL/JHU_RAS/SPRING_2025/Intro To Robotics/MODULE_5/class4_ws/install/en613_control/lib/python3.10/site-packages/en613_control-0.0.0-py3.10.egg-info
+[0.653s] running install_scripts
+[0.667s] Installing diffdrive_sim script to /media/n3b3x/Data Interchange Drive/SCHOOL/JHU_RAS/SPRING_2025/Intro To Robotics/MODULE_5/class4_ws/install/en613_control/lib/en613_control
+[0.667s] writing list of installed files to '/media/n3b3x/Data Interchange Drive/SCHOOL/JHU_RAS/SPRING_2025/Intro To Robotics/MODULE_5/class4_ws/build/en613_control/install.log'
+[0.682s] Invoked command in '/media/n3b3x/Data Interchange Drive/SCHOOL/JHU_RAS/SPRING_2025/Intro To Robotics/MODULE_5/class4_ws/src/en613_control' returned '0': PYTHONPATH=/media/n3b3x/Data Interchange Drive/SCHOOL/JHU_RAS/SPRING_2025/Intro To Robotics/MODULE_5/class4_ws/build/en613_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/n3b3x/Data Interchange Drive/SCHOOL/JHU_RAS/SPRING_2025/Intro To Robotics/MODULE_5/class4_ws/install/en613_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/en613_control build --build-base /media/n3b3x/Data Interchange Drive/SCHOOL/JHU_RAS/SPRING_2025/Intro To Robotics/MODULE_5/class4_ws/build/en613_control/build install --record /media/n3b3x/Data Interchange Drive/SCHOOL/JHU_RAS/SPRING_2025/Intro To Robotics/MODULE_5/class4_ws/build/en613_control/install.log --single-version-externally-managed install_data
